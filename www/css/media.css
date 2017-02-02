@@ -1,0 +1,59 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.source-uses{width: calc(100% - 480px);}
+	.msrItems {margin:20px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.source-uses{width: 100%; margin-top: 60px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.source-uses{width: 100%;	margin-top: 60px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.source-uses{width: 100%; margin-top: 60px;}	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.source-uses{width: 100%; margin-top: 70px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	.main-logo{left:2px; top:-50px;}	.admin{right: 2px; top:-50px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and  (min-width : 480px) {
+	.main-logo{left:10px; top:-50px;}	.admin{right: 10px; top:-50px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and  (min-width : 768px) {
+	.main-logo{left:14px; top:-50px;}	.admin{right: 14px; top:-50px;}
+	.second-graph{margin-right: 10px;} .third-graph{margin-left: 10px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and  (min-width : 992px) {
+	.main-logo{left:20px; top:25px;}	.admin{right: 20px; top:25px;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {	
+	.main-logo{left:20px; top:25px;}	.admin{right: 30px; top:25px;}
+	.source-uses{width: calc(100% - 480px);} 	
+}
+

@@ -1,0 +1,66 @@
+
+стиль для кнопок
+
+.d {
+	border:none;
+	height: 40px;
+	width: 100px;
+	background: #b8cfdf;
+	color: #fff;	
+	font-size: 16px;
+	border-radius: 2px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	overflow: hidden;
+	.span{
+		margin:auto;
+	}
+}
+.d:before {
+	content:'';
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	width: 0px;
+	height: 0px;
+	background: rgba(10,79,129,0.4);
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+.d:hover:before {
+	width: 140px;
+	left:-20px;	
+	top:-60px;
+	height: 140px;
+}
+
+
+.body-image{
+	position: inherit;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background-image: url("../img/5.jpg");
+
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.2;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+
+
+
+
+
+
+
+
+
